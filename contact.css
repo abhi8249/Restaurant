@@ -1,0 +1,104 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  html{
+    background-color: #E7D198;
+}
+.logo{
+    padding: 3px;
+    border-radius: 40%;
+}
+body{
+    margin:0 auto;
+width: 80%;
+}
+.nav{
+    background-color:rgb(7, 30, 52);  
+    padding: 9px;
+    width: 104%;
+    margin-left: -29px;
+    margin-top: 20px;
+    position: sticky;
+    border-radius: 25px;
+
+    
+}
+.signup{
+  float: right;
+  margin-top: 12px;
+  margin-right: 19px;
+}
+li{
+    display: inline;
+    padding: 20px;
+    
+    
+}  
+.list{
+    text-align: center;
+    padding:11px;
+}
+.navlink{
+    text-decoration: none;
+    color:white
+    }
+    .navlink:hover{
+    color:red;
+    cursor: pointer;
+    }
+   .list{
+    text-align: center;
+    float:inline-start;
+   }
+   .contact-form {
+    width: 500px;
+    margin-left: 187px;
+    margin-top: 20px;
+    padding: 20px;
+   
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:chartreuse;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .h{
+    text-align: center;
+  }
+  input[type="submit"]:hover{
+    background-color: green;
+  }

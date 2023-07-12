@@ -1,0 +1,135 @@
+html{
+    background-color: #E7D198;
+}
+.logo{
+    padding: 3px;
+    border-radius: 40%;
+}
+body{
+    margin:0 auto;
+width: 80%;
+}
+.nav{
+    background-color:rgb(7, 30, 52);  
+    padding: 9px;
+    width: 104%;
+    margin-left: -29px;
+    margin-top: 20px;
+    position: sticky;
+    border-radius: 25px;
+
+    
+}
+
+li{
+    display: inline;
+    padding: 21px;
+    
+    
+}  
+.list{
+    text-align: center;
+    padding:11px;
+}
+.navlink{
+    text-decoration: none;
+    color:white
+    }
+    .navlink:hover{
+    color:red;
+    cursor: pointer;
+    }
+   .list{
+    text-align: center;
+    float:inline-start;
+   }
+   .box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-right: 10px;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 45px;
+    padding: 60px;
+
+}
+.box1{
+    background-color: antiquewhite;
+    width: 204px;
+    height: 231px;
+    border-radius: 20px;
+    margin-top: 56px;
+}
+.box2{
+    background-color: antiquewhite;
+    width: 204px;
+    height: 231px;
+    border-radius: 20px;
+    margin-top: 56px;
+}
+.box3{
+    background-color: antiquewhite;
+    width: 204px;
+    height: 231px;
+    border-radius: 20px;
+    margin-top: 56px;
+}
+.meat{
+    height: 66px;
+    border-radius: 73px;
+    margin-left: 72px;
+}
+.fish{
+    height: 66px;
+    border-radius: 38px;
+    margin-left: 73px;
+}
+.drink{
+    height: 66px;
+    border-radius: 38px;
+    margin-left: 54px;
+
+}
+.hmeat{
+    text-align: center;
+}
+.pmeat{
+    text-align: center;
+}
+.mbtn{
+    margin-left: 57px;
+    background-color: #EC5A00;
+    border-radius: 20px;
+}
+.mbtn:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+.h{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.foot{
+    background-color: rgb(236, 90, 0);
+    width: 100vw;
+    height: 215px;
+    margin-left: -180px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 63px;
+    margin-top: 800px;
+}
+.inptxt{
+    border-radius: 10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
